@@ -66,4 +66,3 @@ export interface TableDetailsProps {
     handleDeleteColumn: (tableName: string, columnName: string) => void;
     handleAddColumn: (tableName: string, newColumn: Column) => void;
 }
-

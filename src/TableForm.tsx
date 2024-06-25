@@ -30,8 +30,9 @@ const TableForm: React.FC<TableFormProps> = ({
                     <input type='text' name='name' value={column.name} onChange={(e) => handleColumnChange(index, e)} />
                 </div>
                 <div>
-                    <label>Column Type</label>
+                    <label>Type</label>
                     <select name='type' value={column.type} onChange={(e) => handleColumnChange(index, e)}>
+                      
                         <option value='string'>String</option>
                         <option value='integer'>Integer</option>
                         <option value='boolean'>Boolean</option>

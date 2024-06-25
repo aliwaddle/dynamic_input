@@ -8,6 +8,7 @@ const Sidebar: React.FC<SidebarProps> = ({ tables, loading, handleTableClick, ha
     return (
         <div className='sidebar'>
             <h2>Tables List</h2>
+            <h3>Select Table</h3>
             {loading ? (
                 <p>Loading...</p>
             ) : (

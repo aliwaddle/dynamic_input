@@ -90,7 +90,7 @@ const handleNewAttributeChange = (attribute: DataAttribute) => {
                         <input type='text' name='name' value={newColumn.name} onChange={handleNewColumnChange} />
                     </div>
                     <div>
-                        <label>Column Type</label>
+                        <label>Type</label>
                         <select name='type' value={newColumn.type} onChange={handleNewColumnChange}>
                             <option value='string'>String</option>
                             <option value='integer'>Integer</option>
